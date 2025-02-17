@@ -31,7 +31,7 @@ document.getElementById('weatherForm').addEventListener('submit', function (e) {
       <img src="${weatherIcon}" alt="Weather Icon" class="weather-icon">
       <div class="weather-info">${data.weather[0].description}</div>
       <div class="weather-info">Temperatura: ${data.main.temp}°C</div>
-      <div class="weather-info">Huminidad: ${data.main.humidity}%</div>
+      <div class="weather-info">Humedad: ${data.main.humidity}%</div>
       <div class="weather-info">Viento: ${data.wind.speed} m/s</div>
     `;
   }

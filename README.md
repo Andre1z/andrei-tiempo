@@ -53,6 +53,6 @@ const apiKey = 'YOUR_API_KEY';
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 Autor
-# Andrei Buga
+Andrei Buga
 
 ¡Disfruta de la aplicación del tiempo! 🌤️
